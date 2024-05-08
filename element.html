@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Element</title>
+        <script src="./js/element.js"></script>
+</head>
+
+<body>
+    <h1>Element! 🔥💧🪴 </h1>
+    
+    <section id="mascota">
+        <h2>Elige a tu mascota:</h2>
+        
+        <label for="pyro">Pyro</label>
+        <input type="radio" id="pyro" name="mascota">
+        
+        <label for="nereus">Nereus</label>
+        <input type="radio" id="nereus" name="mascota">
+        
+        <label for="gaia">Gaia</label>
+        <input type="radio" id="gaia" name="mascota">
+        
+        <label for="fyrenado">Fyrenado</label>
+        <input type="radio" id="fyrenado" name="mascota">
+        
+        <label for="geolimne">Geolimne</label>
+        <input type="radio" id="geolimne" name="mascota">
+        
+        <label for="terrablaze">Terrablaze</label>
+        <input type="radio" name="mascota" id="terrablaze">
+        
+        <button id="boton-mascota">Seleccionar</button>
+    </section>
+    
+    <section id="ataque">
+        <h2>Elige tu ataque</h2>
+        
+        <p>Tu mascota es <span id="mascota-jugador"></span> tiene <span>3</span> vidas</p>
+        <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span>3</span> vidas</p>
+        
+        <p>
+            <button id="boton-fuego">Fuego🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra 🪴</button>
+        </p>
+    </section>
+    
+    <section id="mensajes">
+        <p>Tu mascota ataco con Fuego🔥, la mascota del enemigo atacó con Tierra 🪴. GANASTE! 🎉</p>
+    </section>
+    
+    <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar juego</button>
+    </section>
+    
+</body>
+
+</html>
