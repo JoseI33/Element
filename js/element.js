@@ -11,21 +11,22 @@ function seleccionarMascota() {
     let inputFyrenado = document.getElementById('fyrenado');
     let inputGeolimne = document.getElementById('geolimne');
     let inputTerrablaze = document.getElementById('terrablaze');
+    let spanMascotaJugador = document.getElementById('mascota-jugador')
 
     if (inputPyro.checked) {
-        alert('Seleccionaste a Pyro')
+        spanMascotaJugador.innerHTML = "Pyro";
     } else if (inputnereus.checked) {
-        alert('Seleccionaste a Nereus')
+        spanMascotaJugador.innerHTML = "Nereus";
     } else if (inputGaia.checked) {
-        alert('Seleccionaste a Gaia')
+        spanMascotaJugador.innerHTML = "Gaia";
     } else if (inputFyrenado.checked) {
-        alert('Seleccionaste a Fyrenado')
+        spanMascotaJugador.innerHTML = "Fyrenado";
     } else if (inputGeolimne.checked) {
-        alert('Seleccionaste  al Geolimne')
+        spanMascotaJugador.innerHTML = "Geolimne";
     } else if  (inputTerrablaze.checked){
-        alert ('Seleccionaste a Terrablaze')
+        spanMascotaJugador.innerHTML = "Terrablaze";
     }else{
-        alert('Debes elegir un personaje')
+        alert('Selecciona una mascota.')
     }
 }
 
